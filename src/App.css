@@ -1,0 +1,50 @@
+body{
+  background-color: blanchedalmond;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: start;
+}
+
+#root {
+  max-width: 1280px;
+  min-width: 520px;
+  padding: 2rem;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+img{
+  margin: 1rem;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.titulo{
+  margin: 1rem;
+  padding: 5px 3rem;
+  font-size: 2em;
+  color: black;
+  border: 1px solid black;
+  background-color: rgb(20, 126, 91);
+  border-radius: 10px;
+}
+
+#uno, #dos, #tres{
+  margin: 5px;
+  color: beige;
+  background-color: rgb(20, 48, 20);
+  border: 1px hidden black;
+  box-shadow: 2px 2px 4px black;
+}
+#uno:hover, #dos:hover, #tres:hover{
+  color: red;
+  background-color: rgb(17, 58, 17);
+}
+
+#uno:active, #dos:active, #tres:active{
+  color: black;
+  background-color: rgb(124, 160, 124);
+}
+
+
